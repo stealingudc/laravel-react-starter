@@ -51,6 +51,8 @@ OR
 npm run build; php artisan serve
 ```
 
+Bonus: use `zellij --layout layout.kdl` to open debug deployment environment
+
 ## Tips
 
 - Don't use hard-coded URLs for routes, you monster.
