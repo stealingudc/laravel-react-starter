@@ -9,10 +9,30 @@ This project uses the following libraries:
 
 ## Usage
 
-Start the Vite "build-watch-serve" pipeline with `npm run watch`. For
+You can enter a dev shell with `nix develop .#default` (or have it done
+automatically w/ [direnv <3](https://direnv.net/))
+
+Then make sure to init all dependecies:
+
+```sh
+npm i
+composer i
+```
+
+Finally, start the Vite "build-watch-serve" pipeline with `npm run watch`. For
 production, use `npm run build`, and either run `php artisan serve` or serve
 your app with your preffered method with your document root set to
 `public/index.php`.
+
+```sh
+nix run .#default
+```
+
+OR
+
+```bash
+npm run build; php artisan serve
+```
 
 ## Tips
 
