@@ -8,7 +8,6 @@ This project uses the following libraries:
 - `react-hook-form` for... well, you can probably guess that for yourself
 
 ## Usage
-
 - Run `npm install` and `composer install` to initialize all of your project's
   dependencies.
 - Copy the `.env.example` file to a new `.env` file. That's your project's
@@ -25,6 +24,7 @@ either run `php artisan serve` or serve your app with your preffered method with
 your document root set to `public/index.php`.
 
 ### For `nix` users (credits: [valyntyler](https://github.com/valyntyler)):
+#### Make sure you clone the `nix` branch!
 
 You can enter a dev shell with `nix develop .#default` (or have it done
 automatically w/ [direnv <3](https://direnv.net/))
