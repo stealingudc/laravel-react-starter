@@ -1,22 +1,36 @@
 ## Laravel-React Starter
 
 This project uses the following libraries:
+
 - `inertia.js` for client-server routing
 - `zod` and `lodash` for client-side validation
 - `shadcn-ui` (based on radix-ui) for pretty UI components
 - `react-hook-form` for... well, you can probably guess that for yourself
 
 ## Usage
-Start the Vite "build-watch-serve" pipeline with `npm run watch`. For production, use `npm run build`, and either run `php artisan serve` or serve your app with your preffered method with your document root set to `public/index.php`.
+
+Start the Vite "build-watch-serve" pipeline with `npm run watch`. For
+production, use `npm run build`, and either run `php artisan serve` or serve
+your app with your preffered method with your document root set to
+`public/index.php`.
 
 ## Tips
+
 - Don't use hard-coded URLs for routes, you monster.
-- Use `react-hook-form`'s form controller instead of the one provided by `inertia.js`. Just use `Inertia.router.post()` for form submission, since `react-hook-form` already handles validation through `zod`.
-- Name your routes based on your controller methods. Name your controller methods following Laravel conventions.
-- Keep the file structure. 'Partials' go in `Partials/` subdirectories for their respective pages. <sub>twig templates have brainwashed me</sub>
-- Try extending `Request` instead of using the generic request class. Developing a backend-first app is the first step to keeping your sanity in check.
-- Create database migrations with every entity LOC edited. You'll thank me later.
-- Never-nest. Never-test. Keep your code clean and **never test it**. What, are you doubting your skills as a dev? Is that *impostor syndrome* I smell? Weak.
+- Use `react-hook-form`'s form controller instead of the one provided by
+  `inertia.js`. Just use `Inertia.router.post()` for form submission, since
+  `react-hook-form` already handles validation through `zod`.
+- Name your routes based on your controller methods. Name your controller
+  methods following Laravel conventions.
+- Keep the file structure. 'Partials' go in `Partials/` subdirectories for their
+  respective pages. <sub>twig templates have brainwashed me</sub>
+- Try extending `Request` instead of using the generic request class. Developing
+  a backend-first app is the first step to keeping your sanity in check.
+- Create database migrations with every entity LOC edited. You'll thank me
+  later.
+- Never-nest. Never-test. Keep your code clean and **never test it**. What, are
+  you doubting your skills as a dev? Is that _impostor syndrome_ I smell? Weak.
 
 ## License
-*i dont really care man just clone this i wont sue you*
+
+_i dont really care man just clone this i wont sue you_
